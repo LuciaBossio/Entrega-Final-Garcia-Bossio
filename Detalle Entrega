@@ -1,4 +1,52 @@
 # Entrega FINAL García Bossio
+
+La base de datos utilizada, que se encuentra adjunta es sobre las ventas de una tienda. A continuación detallo su análsis:
+1. Estructura de los Datos
+Columnas:
+id_venta: Identificador único para cada venta.
+fecha_venta: Fecha de la venta.
+id_producto: Identificador del producto.
+nombre_producto: Nombre del producto.
+categoria_producto: Categoría del producto.
+cantidad: Cantidad vendida.
+precio_unitario: Precio por unidad.
+total_venta: Total de la venta (cantidad × precio_unitario).
+id_cliente: Identificador del cliente.
+nombre_cliente: Nombre del cliente.
+
+2. Estadísticas Descriptivas
+Totales:
+Calcula el total de ventas y el total de productos vendidos.
+Promedios:
+Precio unitario promedio.
+Total de venta promedio.
+Rango:
+Precio unitario mínimo y máximo.
+Cantidad mínima y máxima por venta.
+
+3. Análisis de Frecuencia
+Productos y Categorías:Productos más vendidos.
+Categorías más frecuentadas (ejemplo: Office Supplies, Furniture, Technology).
+Clientes: Clientes con más compras.
+
+4. Distribución Temporal: 
+Ventas por Mes:Analiza cómo varían las ventas a lo largo de los meses considerando que los datos abren con fechas de enero.
+5. Visualización de Datos
+
+Gráficos Sugeridos:
+Histograma de ventas por categoría.
+Gráfico de barras para mostrar los productos más vendidos.
+Serie de tiempo para visualizar la evolución de las ventas a lo largo del mes.
+
+6. Análisis de Relaciones
+Correlaciones:Relación entre cantidad vendida y categoría.
+Influencia del precio unitario sobre el total de las ventas.
+
+Observaciones Generales
+Las categorías con más productos son Office Supplies, indicativo de una mayor variedad.
+Verifica que el campo total_venta coincida correctamente con cantidad multiplicada por precio_unitario.
+Observa productos con total de venta bajo (e.g., ventas con precios unitarios erróneos).
+
 Hipotesis a plantear para este proyecto:
 1) Las ventas se mantuvieron durante todo el año
 2) La categoria más vendida fue Elementos de oficina
